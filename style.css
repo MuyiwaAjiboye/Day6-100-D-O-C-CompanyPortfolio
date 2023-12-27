@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-weight: 500;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;   
+    cursor: pointer;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 46%;
+}
+
+.navlink {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.links li {
+    transition: all 0.3s ease-out;
+}
+
+.links li:hover {
+    color: red;
+}
+
+.picArea {
+    position: relative;
+}
+
+.picArea :nth-child(1) {
+    padding-top: 30px;
+    width: 700px;
+    left: 10%;
+    position: absolute;
+    height: auto;
+}
+
+.picArea :nth-child(2) {
+    top: 250px;
+    left: 50px;
+    width: 600px;
+    position: absolute;
+    height: auto;
+}
+
+.picArea :nth-child(3) {
+    left: 50%;
+    width: 500px;
+    position: absolute;
+    height: auto;
+}
